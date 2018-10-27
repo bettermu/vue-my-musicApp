@@ -1,21 +1,13 @@
-# music-app
+# vue-music-app
 
-> A Vue.js project
+## 简单介绍
 
-## Build Setup
+### 前端
 
-``` bash
-# install dependencies
-npm install
+* vue全家桶
+* axios
+* swiper
 
-# serve with hot reload at localhost:8080
-npm run dev
+### 后端
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* [网易云音乐API NodeJs版](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90-api)
