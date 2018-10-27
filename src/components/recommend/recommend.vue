@@ -1,16 +1,20 @@
 <template>
   <div class="recommend">
-    我是推荐页面
+    我是推荐页面 {{getPlayMode}}
   </div>
 </template>
 
 <script>
 import {getBanners} from 'api/recommend.js'
+import {mapGetters} from 'vuex'
   export default {
     data(){
       return{
         banners:[]
       }
+    },
+    computed:{
+      ...mapGetters(['getPlayMode'])
     },
     created(){
       this._getBanners()
